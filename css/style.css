@@ -1,0 +1,54 @@
+
+
+
+
+
+
+
+
+
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.container {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+.main-header {
+	margin-bottom: 60px;
+}
+
+.main-nav {
+	float: left;
+	width: 70%;
+}
+
+.main-nav ul {
+	list-style: none;
+}
+
+.main-nav ul li {
+	display: inline-block;
+	margin-right: 20px;
+	vertical-align: top;
+}
+
+.main-nav ul li:last-child {
+	margin-right: 0;
+}
+
+.main-nav a {
+	text-decoration: none;
+}
+
+.user-block {
+	float: right;
+	width: 25%;
+}
+
