@@ -1,17 +1,21 @@
 
-
-
-
-
-
-
-
-
+body {
+	font: 16px Arial, sans-serif;
+	color: #fff;
+	text-transform: uppercase;
+	background: url(../img/bg_index.jpg) no-repeat center top;
+}
 
 .clearfix:after {
 	content: "";
 	display: table;
 	clear: both;
+}
+
+
+a {
+	text-decoration: none;
+	color: #fff;
 }
 
 .container {
@@ -43,12 +47,41 @@
 	margin-right: 0;
 }
 
-.main-nav a {
-	text-decoration: none;
-}
-
 .user-block {
 	float: right;
 	width: 25%;
+	padding: 15px;
 }
 
+.index-logo {
+	margin-bottom: 25px;
+}
+
+.features {
+	margin-bottom: 60px;
+}
+
+.features-item {
+	width: 290px;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 20px;
+}
+
+.features-item:last-child {
+	margin-right: 0;
+}
+
+.index-content {
+	margin-bottom: 60px;
+}
+
+.index-content-left {
+	width: 400px;
+	float: left;
+}
+
+.index-content-right {
+	width: 400px;
+	float: right;
+}
